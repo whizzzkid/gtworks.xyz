@@ -1,0 +1,695 @@
+
+        @import url( https://fonts.googleapis.com/css?family=Changa+One);
+        @import url(https://fonts.googleapis.com/css?family=Lalezar);
+           @import url('https://fonts.googleapis.com/css?family=Mirza:600');
+
+   
+       @import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+
+        /*font-family: 'Bungee Inline', cursive;
+          font-family: 'Judson', serif;
+          font-family: 'Taviraj', serif;
+          /uesd :font-family: 'Lalezar', cursive;
+          /font-family: 'Luckiest Guy', cursive;*/
+        /*font-family: 'Patua One', cursive;
+
+
+ */   body, html { font-size: 100%; padding: 0; margin: 0; }
+
+
+
+
+       .heading2
+       {
+        font-family:'Mirza', cursive;;
+        color:black;
+        font-weight: bolder;
+        font-size: 26px;
+
+       }
+       .navbar{height: 69px;padding-top: 10px;background-color:white;box-shadow:1px 1px 10px 1px black}
+       .nav li a{color:#c62828;font-size:20px;font-family: 'changa one',cursive;letter-spacing: 2px;}
+       .nav li a:hover{color:#990000;background-color: white;}
+       
+       #mynavbar{background-color:#F8F8F8;}
+    
+
+       @media only screen and (max-width: 750px)
+        {
+           #mynavbar{background-color:#F8F8F8; position: relative;top:-6px;}            
+
+
+        }
+      
+      
+       .navbar-brand{
+        color:#c62828;
+        text-shadow:black 1px 1px 1px;
+        font-family: 'Roboto Condensed';
+
+       letter-spacing: 4px;
+     }
+
+       .navbar-header>a:hover
+       {
+        color:black;
+      }
+      .navbar-brand>a:focus
+       {
+        color:black;
+      }
+
+
+      #carousel
+      {
+        background-color:#333333  ;
+        z-index: 100;
+         margin-top: 40px;
+          box-shadow:1px 3px 20px 1px black ;
+      }       
+     
+
+      
+
+         #about{ 
+           
+             width: 100%;
+
+                 
+            
+               background-color:white;
+                   padding-bottom:95px; 
+
+               /* Standard syntax */
+
+
+              }
+              #about2
+              {
+                background-color:#333333 ; 
+                margin-top:-20px;
+                padding-top: 30px;
+                padding-bottom: 70px;
+              }
+        .aboutnext
+        {
+          background: transparent;
+          width:60%;margin: auto;
+          padding-bottom: 20px;
+          margin-bottom: 0px;
+          height: auto;
+
+        }
+        
+       
+
+        .heading1{ color:#cc0000;font-size:40px;font-family:'Lalezar', cursive; ;text-shadow:black 1px 2px 3px; 
+
+                   animation:stretch 4s ease; padding-left: 20px;padding-right: 20px ;padding-bottom: 10px;letter-spacing: 2px;
+                 }
+       .heading4{ color:white;font-size:50px;font-family:'Lalezar', cursive;text-shadow:black 1px 2px 5px; 
+
+                   animation:stretch 5s ease; padding-left: 20px;padding-right: 20px ;padding-bottom: 10px;letter-spacing: 2px;
+                 }
+            #miniheading4{ color:white;font-size:26px;font-family:'Patua One', cursive; text-shadow:black 1px 2px 3px; 
+
+                   animation:stretch1 5s ease; padding-left: 20px;padding-right: 20px ;padding-bottom: 10px;letter-spacing: 2px;font-weight: bold;
+                 }         
+
+
+       .heading3
+       {
+        font-family:'Lalezar', cursive;
+        color:#333333;
+
+         text-shadow:1px 1px 2px black;
+        letter-spacing: 1px;
+       
+        font-size: 35px;
+      }
+
+      
+         
+        .aboutmid{
+
+
+
+          padding-left: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+
+        .aboutmid a
+        {
+          color: #900000;
+        }
+        .aboutmid a:hover
+        {
+          color: red;
+          text-decoration: none;
+
+        }
+
+        .cube {
+          width: 250px;
+          text-align: center;
+          margin: 0 auto;
+          height:250px;
+          
+          -webkit-transition: -webkit-transform .33s;
+          transition: transform .33s; /* Animate the transform properties */
+
+          -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d; /* <-NB */'
+
+
+          margin-bottom: 10px;
+        }
+
+        /* The two faces of the cube */
+        
+
+        /* Position the faces */
+        .flippety ,.flippety1,.flippety2,.flippety3,.flippety4,.flippety5
+        {
+         
+         background-image: url('../images/grey.jpg');
+          -webkit-transform: translateZ(129px);
+          transform: translateZ(120px);  /*for transparent make it 170 */
+          padding-top: 30px;
+        }
+
+        .flop ,.flop1,.flop2, .flop3,.flop4,.flop5{
+           
+          /*background: -webkit-linear-gradient(90deg,white,#F8F8F8); /* For Safari 5.1 to 6.0 */
+            /*background: -o-linear-gradient(70deg,white,#D1CFCF );/* For Opera 11.1 to 12.0 */
+           /* background: -moz-linear-gradient(70deg,white,#D1CFCF ); /* For Firefox 3.6 to 15 */
+            /*background: linear-gradient(70deg,white,#D1CFCF ); /* Standard syntax */
+            padding: 20px;
+            padding-top: 5px;
+
+          
+             background-image: url('../images/grey3.jpg');
+
+        background-color: #f2f2f2;
+          -webkit-transform: rotateX(-92deg) translateZ(-150px);
+          transform: rotateX(-90deg) translateZ(-150px);
+
+        }
+
+
+         .flippety {
+                 
+          height: 250px;
+        }
+        .flop{
+           
+        
+          height: 250px;
+        }
+
+        .flippety1 {
+                
+
+          
+          height: 250px;
+        }
+        .flop1{
+             
+      
+          height: 250px;
+        }
+        .flippety2{
+    
+         
+          height: 250px;
+        }
+        .flop2{
+     
+           
+           
+          height: 250px;
+        }
+        .flippety3{
+       
+         
+          height: 250px;
+        }
+        .flop3{
+          
+            
+           
+          height: 250px;
+        }
+        .flippety4{
+         
+
+          height: 250px;
+        }
+        .flop4{
+          
+        
+          height: 250px;
+        }
+        .flippety5{
+    
+         
+          height: 250px;
+        }
+        .flop5{
+          
+           
+           
+          height: 250px;
+        }
+
+        /* Rotate the cube */
+        .cube:hover {
+          -webkit-transform: rotateX(91deg);
+          transform: rotateX(91deg); /* Text bleed at 90º */
+        }
+        
+        .imgincube
+        {
+
+          margin: 0 auto;
+       
+          height: 120px;
+          width: 120px;
+        }
+
+       #cube5
+       {
+        
+         
+       }
+       .cubetxt-wrapper {
+            background-color: transparent;
+           transform: translateY(-10%);
+           margin: 0 auto;
+          margin-bottom: -20px;
+          margin-top: 50px;
+           width: 200px;  
+        }
+       .shapecube {
+          stroke-dasharray:60 500;
+          stroke-dashoffset:255;
+          stroke-width: 6px;
+           
+          fill: transparent;
+          stroke: #9E0B0B;
+          
+         /* transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;*/
+        }
+       .cubetext {
+          font-family: 'changa one',cursive;
+          font-size: 24px;
+          text-align: center;
+          color: black;
+         letter-spacing: 1px;
+          top: -43px;
+
+          position: relative;
+        }
+
+
+      
+       #reveal-main{background-color:rgba(10,10,10,0.4);  width: 100%;padding:200px 100px;}
+    
+       #reveal-main  p{font-size: 30px;color: white;text-align: center; text-shadow:1px 1px 1px black; }
+       #reveal-main span{font-size: 20px;}
+
+       #belowworks
+       {
+
+            height:800px;
+            width:100%;
+            position:fixed;
+            top:70px;
+            z-index: -1;
+            padding-top: 0px;
+            background-image: url('../images/color2.jpg');
+          
+             background-size:100% 70%;
+            ; 
+            
+                        /* For browsers that do not support gradients */
+         /*   background: -webkit-linear-gradient(70deg,white,#D1CFCF ); /* For Safari 5.1 to 6.0 */
+            /*background: -o-linear-gradient(70deg,white,#D1CFCF );/* For Opera 11.1 to 12.0 */
+           /* background: -moz-linear-gradient(70deg,white,#D1CFCF ); /* For Firefox 3.6 to 15 */
+            /*background: linear-gradient(70deg,white,#D1CFCF ); /* Standard syntax */"
+
+         }
+
+
+
+      .svg-wrapper {
+          position: relative;top:50px;
+           background-color: transparent;
+           transform: translateY(-50%);
+           margin: 0 auto;
+           width: 320px;  
+        }
+      .shape {
+          stroke-dasharray:100 800;
+          stroke-dashoffset:410;
+          stroke-width: 8px;
+          
+          fill:white;
+          stroke: #9E0B0B;
+          
+          transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+        }
+      .text {
+          font-family: 'changa one',cursive;;
+          font-size: 25px;
+          line-height: 32px;
+          letter-spacing: 3px;
+          color: black;
+         
+          text-align: center;
+          top: -48px;
+
+          position: relative;
+        }
+      .svg-wrapper:hover .shape {
+          stroke-width: 5px;
+          stroke-dashoffset: 0;
+          stroke-dasharray: 760;
+        }
+       /* @keyframes belo {
+                  0% {  
+                     stroke-width: 10px;
+          stroke-dashoffset: 260 160;
+          stroke-dasharray: -440;
+                     }
+                  100% { stroke-width: 5px;
+          stroke-dashoffset: 0;
+          stroke-dasharray: 760;
+                         }
+                    
+            }
+*/
+
+      
+
+
+        
+
+       
+
+
+      #next{
+
+             background-color: white;
+
+           
+             padding: 5%;
+               padding-top: 4%;
+
+                            /* For browsers that do not support gradients */
+            /**/
+
+
+             }
+             .aboutmetext
+             { margin: 1%;
+              padding:3%;
+              margin-right: 0px;
+              font-family:'Patua One', cursive;
+
+               font-size: 21px;
+              letter-spacing: 1px;
+             ;
+                  
+         background-image: url('../images/about1.jpg');
+             margin-bottom:3%;
+            }
+
+             #aboutmepic{
+              width:30;
+              min-width: 250px;
+              float: right;
+              max-width: 350px;
+              
+               border-radius: 50%;
+               padding: 2%;
+             
+              
+             }
+             @media only screen and (max-width: 500px)
+
+             {
+
+
+                #aboutmepic{
+                  width:30;
+                  
+                  float: right;
+                  max-width: 250px;
+                  
+                   border-radius: 50%;
+                   padding: 2%;
+             
+              
+              }
+             }
+
+
+
+
+       #beforefooter
+        { padding-top:  40px;
+           padding-bottom: 30px;
+          width: 100%;
+          background-color: white;
+          
+        }
+
+        .contact
+        {
+            
+         background-image: url("../images/about1.jpg");                     /* For browsers that do not support gradients */
+         background-color: #eeeeee;
+    
+          opacity: 1;
+
+       
+          padding: 30px;
+          margin: 20px;
+          margin-bottom: 4%;
+          padding-top: 40px;
+          padding-bottom: 5%;/* make it 8 % for smaller screen*/
+               
+        }
+        #contact1
+        {
+          margin-left: 40px;
+            animation-duration: 2s;
+          animation-delay: 4s;
+          
+        }
+        #contact2
+        {
+          margin-right: 40px;
+        animation-duration: 2s;
+        animation-delay: 6s;
+
+        }
+        #contact3
+        {   animation-duration: 2s;
+          animation-delay: 5s;
+          
+
+        }
+       .contact_wrapper {
+            background-color: transparent;
+           transform: translateY(-10%);
+           margin: 0 auto;
+          margin-bottom: -20px;
+           width: 200px;  
+        }
+       .shapec {
+          stroke-dasharray:80 500;
+          stroke-dashoffset:285;
+          stroke-width: 6px;
+           
+          fill: transparent;
+          stroke: #9E0B0B;
+          
+         /* transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;*/
+        }
+       .ctext {
+          font-family:  'changa one',cursive;;
+          font-size: 23px;
+          text-align: center;
+          color: black;
+         letter-spacing: 1px;
+          top: -43px;
+
+          position: relative;
+        }
+        .callicon
+        { margin-top: 5px;
+          color:#990000;
+          font-size:21px;
+        }
+        .calltxt
+        {
+          position: relative;
+          top:-7px;
+          font-size:21px;
+          font-weight: bolder;
+          margin-left: 10px;
+          font-family: 'Mirza', cursive;
+        }
+        
+        .b1
+        {
+          
+          margin-left: 28%;
+          margin-top: 10px;
+          font-size: 30px;
+          font-family:'Lalezar', cursive;
+          height: 45px;
+           margin-bottom: 5%;
+
+
+        }
+        
+        .b1 a:hover
+        {
+          color: black;
+          text-decoration: none;
+        }
+        .b1 a
+        {
+          color: black;
+        }
+      .normaltext
+        {
+           font-family:'Patua One', cursive;
+           font-size: 23px;
+           font-weight: normal;
+
+
+        }
+        .normaltext2
+        {
+           font-family:'Mirza', cursive;
+           font-size: 23px;
+           font-weight: normal;
+
+
+        }
+        footer
+        { color:white;
+          text-align: center;
+          font-size: 15px;
+          padding-top: 10px;
+          background-color:#333333;opacity: 0.9;
+        }
+
+
+
+
+ 
+                      
+        @keyframes stretch {
+                  0% {
+                    transform: scale(0.01);
+                     }
+                  50% { transform: scale(1);
+                       }
+                    
+                            }
+                             @keyframes stretch1 {0%{transform:scale(0);}
+
+                  50% {
+                    transform: scale(0);opacity: 0%
+                     }
+                  100% { transform: scale(1);
+                       }
+                    
+                            }
+         @keyframes bounce
+            {
+
+              0% {
+                    top:-100px;
+                     }
+                  100% { top:300px;
+                       }
+
+    }
+                        }
+
+
+
+         @keyframes flipflop
+            {  
+                transform: rotateX(91deg); /* Te
+
+              
+           }
+
+
+
+
+
+
+
+   
+      /* Container box to set the sides relative to */
+.dice {
+  width: 400px;
+
+  height:35px;
+
+  -webkit-transition: -webkit-transform .33s;
+  transition: transform .33s; /* Animate the transform properties */
+
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; /* <-NB */
+}
+
+/* The two faces of the cube
+-webkit-box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+  box-shadow: 0 5px 20px rgba(105, 108, 109, .3), 0 0 8px 5px rgba(208, 223, 226, .4) inset;
+
+ */
+.flippety6{
+  background:#c62828;
+  
+  height: 35px;
+  
+}
+.flop6
+{   background: -webkit-linear-gradient(180deg,white,#e53935 ); /* For Safari 5.1 to 6.0 */
+              background: -o-linear-gradient(70deg,#d32f2f,#e53935 );;/* For Opera 11.1 to 12.0 */
+              background: -moz-linear-gradient(70deg,#d32f2f,#c62828);; /* For Firefox 3.6 to 15 */
+              background: linear-gradient(120deg,#ef5350 ,#b71c1c); /* Standard syntax */"
+  background-color:#d32f2f;
+  height: 35px;
+
+}
+
+/* Position the faces */
+.flippety6 {
+  -webkit-transform: translateZ(15px);
+  transform: translateZ(16px);
+}
+
+.flop6 {
+  -webkit-transform: rotateX(-90deg) translateZ(-50px);
+  transform: rotateX(-90deg) translateZ(-40px);
+}
+
+/* Rotate the cube */
+.dice:hover {
+  -webkit-transform: rotateX(89deg);
+  transform: rotateX(89deg); /* Text bleed at 90º */
+}
+
+    
